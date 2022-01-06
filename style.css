@@ -33,6 +33,11 @@ h1 {
     padding-left: 1.75rem;
 }
 
+h3 {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+}
+
 span {
     color: var(--red);
 }
@@ -93,3 +98,49 @@ button:hover {
 }
 
 /* mission page */
+.mission-header {
+    border: none;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .7rem;
+    background: rgb(252, 234, 234);
+    margin: .5rem;
+    padding: 2rem 1rem;
+    height: 25rem;
+    width: 35rem;
+}
+
+.card-item p {
+    width: 90%;
+    text-align: center;
+}
+
+.card-item img {
+    width: 10rem;
+}
+
+.card-item-2 {
+    background: rgb(255, 241, 222);
+}
+
+.card-item-3 {
+    background: rgb(255, 249, 222);
+}
+
+.mission-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission-card:hover .card-item {
+    transform: scale(1.007);
+    box-shadow: 0px 3px 20px -20px black;
+}
